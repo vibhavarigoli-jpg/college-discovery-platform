@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎓 College Discovery Platform
 
-## Getting Started
+A full-fledged, high-performance **Next.js** application designed to seamlessly discover, filter, and compare top-tier engineering educational institutions. This platform empowers students to evaluate colleges based on course streams, financial constraints, ratings, and real-time placement configurations.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Advanced Search & Multi-Filter Engine:** Dynamically search colleges by name or instantly narrow down lists via specific fields like Location (e.g., Markapur, Ongole, Hyderabad) and Course Streams.
+* **Smart Compare Matrix:** Select and evaluate multiple colleges side-by-side using key performance indicators (Fees, Branches, Placements, and Ratings).
+* **Detailed Analytics View:** Dedicated sub-pages (`/[id]`) highlighting distinct college frameworks, placement breakdowns (Highest vs. Average packages), and infrastructure insights.
+* **Modern Tech Stack:** Engineered utilizing React, TypeScript, Next.js (App Router), Tailored CSS Configurations, and Optimized Local State Management.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Tech Stack & System Architecture
 
-## Learn More
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Frontend Framework** | Next.js 14+ (App Router) | Core Layouts & Server/Client Components |
+| **Language Standards** | TypeScript | Strong Type Safety & Structure Rules |
+| **Data Synchronization** | Local React Hooks & Debounce | Real-time Search Processing Optimization |
+| **Styling Framework** | Tailwind CSS / Standard CSS Modules | Fully Responsive Layout Grid & Modern UI |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure Snapshot
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+src/
+├── app/
+│   ├── [id]/          # Detailed Individual College Profile Page
+│   ├── colleges/      # Advanced Discovery Dashboard & Filtering System
+│   ├── compare/       # Multi-College Side-by-Side Comparison Matrix
+│   └── layout.tsx     # Global Navigation & Layout Frame
+├── hooks/
+│   ├── useCompare.ts  # State management for comparing institutions
+│   └── useDebounce.ts # Optimization handler for dynamic search input
+└── mock/
+    └── colleges.json  # Centralized structural mock database matrix
