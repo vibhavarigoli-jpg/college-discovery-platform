@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "name": "Indian Institute of Technology (IIT), Hyderabad",
+    "location": "Hyderabad, Telangana",
+    "rating": 4.8,
+    "fees": 220000,
+    "courses": ["CSE", "ECE", "Data Science", "Mechanical"],
+    "placements": {
+      "highest": "65 LPA",
+      "average": "20 LPA"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Jawaharlal Nehru Technological University (JNTU)",
+    "location": "Kakinada, Andhra Pradesh",
+    "rating": 4.2,
+    "fees": 85000,
+    "courses": ["CSE", "ECE", "EEE", "Civil", "Mechanical"],
+    "placements": {
+      "highest": "35 LPA",
+      "average": "7.5 LPA"
+    }
+  },
+  {
+    "id": "3",
+    "name": "International Institute of Information Technology (IIIT)",
+    "location": "Gachibowli, Hyderabad",
+    "rating": 4.9,
+    "fees": 360000,
+    "courses": ["CSE", "ECE", "AI"],
+    "placements": {
+      "highest": "1.0 Crore",
+      "average": "32 LPA"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Krishna Chaitanya Institute of Technology and Sciences",
+    "location": "Markapur, Andhra Pradesh",
+    "rating": 4.2,
+    "fees": 50000,
+    "courses": ["CSE", "AI/ML", "Data Science", "ECE", "Civil"],
+    "placements": {
+      "highest": "30 LPA",
+      "average": "4.5 LPA"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Dr. Samuel George Institute of Engineering and Technology",
+    "location": "Markapur, Andhra Pradesh",
+    "rating": 4.0,
+    "fees": 70000,
+    "courses": ["CSE", "AI/ML", "ECE", "Mechanical", "Civil"],
+    "placements": {
+      "highest": "20 LPA",
+      "average": "3.8 LPA"
+    }
+  },
+  {
+    "id": "6",
+    "name": "A1 Global Institute of Engineering & Technology",
+    "location": "Markapur, Andhra Pradesh",
+    "rating": 3.9,
+    "fees": 40000,
+    "courses": ["CSE", "ECE", "EEE", "Mechanical", "Civil"],
+    "placements": {
+      "highest": "15 LPA",
+      "average": "3.5 LPA"
+    }
+  },
+  {
+    "id": "7",
+    "name": "Pace Institute of Technology and Sciences",
+    "location": "Ongole, Andhra Pradesh",
+    "rating": 4.1,
+    "fees": 65000,
+    "courses": ["CSE", "Information Technology", "ECE", "Mechanical"],
+    "placements": {
+      "highest": "12 LPA",
+      "average": "4.2 LPA"
+    }
+  }
+]
