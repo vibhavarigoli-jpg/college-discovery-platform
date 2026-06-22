@@ -1,9 +1,7 @@
 # 🎓 College Discovery Platform
 
 A full-fledged, high-performance **Next.js** application designed to seamlessly discover, filter, and compare top-tier engineering educational institutions. This platform empowers students to evaluate colleges based on course streams, financial constraints, ratings, and real-time placement configurations.
-
 ---
-
 ## 🚀 Key Features
 
 * **Advanced Search & Multi-Filter Engine:** Dynamically search colleges by name or instantly narrow down lists via specific fields like Location (e.g., Markapur, Ongole, Hyderabad) and Course Streams.
@@ -11,7 +9,9 @@ A full-fledged, high-performance **Next.js** application designed to seamlessly 
 * **Detailed Analytics View:** Dedicated sub-pages (`/[id]`) highlighting distinct college frameworks, placement breakdowns (Highest vs. Average packages), and infrastructure insights.
 * **Modern Tech Stack:** Engineered utilizing React, TypeScript, Next.js (App Router), Tailored CSS Configurations, and Optimized Local State Management.
 
----
+🌐 Live Production Deployment
+The application is fully compiled, optimized, and deployed live in production:
+👉 Live Application Link : https://college-discovery-platform-seven-sepia.vercel.app/colleges
 
 ## 🛠️ Tech Stack & System Architecture
 
@@ -23,9 +23,7 @@ A full-fledged, high-performance **Next.js** application designed to seamlessly 
 | **Styling Framework** | Tailwind CSS / Standard CSS Modules | Fully Responsive Layout Grid & Modern UI |
 
 ---
-
 ## 📂 Project Structure Snapshot
-
 ```text
 src/
 ├── app/
@@ -38,8 +36,4 @@ src/
 │   └── useDebounce.ts # Optimization handler for dynamic search input
 └── mock/
     └── colleges.json  # Centralized structural mock database matrix
-----------------------------------------------------------------------------------------------------------
 
-🌐 Live Production Deployment
-The application is fully compiled, optimized, and deployed live in production:
-👉 Live Application Link : https://college-discovery-platform-seven-sepia.vercel.app/colleges
