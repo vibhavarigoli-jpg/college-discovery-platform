@@ -38,3 +38,8 @@ src/
 │   └── useDebounce.ts # Optimization handler for dynamic search input
 └── mock/
     └── colleges.json  # Centralized structural mock database matrix
+----------------------------------------------------------------------------------------------------------
+
+🌐 Live Production Deployment
+The application is fully compiled, optimized, and deployed live in production:
+👉 Live Application Link : https://college-discovery-platform-seven-sepia.vercel.app/colleges
